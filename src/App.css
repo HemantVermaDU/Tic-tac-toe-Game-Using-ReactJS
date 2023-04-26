@@ -1,0 +1,32 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ } 
+ body{
+   background: #4e99c5; background: -webkit-linear-gradient(to right, #240b36, #2f93ac); background: linear-gradient(to right, #240b36, #4398a7);
+}
+.heading{
+   color: #fff;
+   font-size: 2rem;
+   text-align: center;
+}
+h1{
+   color: rgb(248, 11, 177);
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.icon{
+   color: red;
+   font-size: 30px;
+}
